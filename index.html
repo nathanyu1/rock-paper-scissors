@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="header">
-        <p>Welcome to Rock, Paper, Scissors!</p>
+      <p>Welcome to Rock, Paper, Scissors!</p>
+    </div>
+    <div>
+        <p class="subheader">Make your move...</p>
     </div>
     <div class="buttonContainer">
-        <button id="playButton">Click Me To Play!</button>
+      <button id="rockButton">Rock</button>
+      <button id="paperButton">Paper</button>
+      <button id="scissorsButton">Scissors</button>
     </div>
     <div class="scores">
-        <div class="human">
-            <p>Your Current Score:</p>
-            <p>0</p>
-        </div>
-        <div class="computer">
-            <p>Computer's Current Score:</p>
-            <p>0</p>
-        </div>
+      <div class="human">
+        <p>Your Current Score:</p>
+        <p id="humanScore">0</p>
+      </div>
+      <div class="computer">
+        <p>Computer's Current Score:</p>
+        <p id="compScore">0</p>
+      </div>
     </div>
 
-
-
-
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
